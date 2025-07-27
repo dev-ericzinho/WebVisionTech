@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebVisionTech - Transforme sua Visão Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container container">
+            <a href="index.html" class="nav-logo"> <!-- Added <a> tag here -->
+                <img src="logoWebVisionSemFundo.png" alt="WebVisionTech Logo" class="logo" width="50" height="50">
+                <h1 class="logo-text">Web<span class="text-gradient">Vision</span></h1>
+            </a>
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link active">Início</a>
+                <a href="services.html" class="nav-link">Serviços</a>
+                <a href="about.html" class="nav-link">Sobre</a>
+                <a href="contact.html" class="nav-link">Contato</a>
+                <button class="btn btn-primary">Orçamento</button>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="particle" style="top: 10%; left: 15%;"></div>
+                <div class="particle" style="top: 30%; right: 20%;"></div>
+                <div class="particle" style="bottom: 20%; left: 30%;"></div>
+                <div class="particle" style="bottom: 40%; right: 10%;"></div>
+                <div class="particle" style="top: 50%; left: 5%;"></div>
+                <div class="particle" style="bottom: 10%; right: 25%;"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">
+                    <span class="text-white">O Futuro da Sua </span>
+                    <span class="text-gradient">Presença Digital</span>
+                    <br>
+                    <span class="text-gradient">Começa Aqui.</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in-delay">
+                    Soluções tecnológicas de ponta para impulsionar seu negócio e conectar você ao amanhã.
+                </p>
+                <div class="hero-buttons animate-fade-in-delay-2">
+                    <a href="services.html" class="btn btn-primary btn-large">
+                        Descubra Nossos Serviços <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="contact.html" class="btn btn-outline btn-large">
+                        Fale com um Especialista
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-services-preview" id="services-preview">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2>
+                        Nossas <span class="text-blue">Soluções</span>
+                    </h2>
+                    <p>Transformamos desafios em oportunidades digitais com expertise e inovação.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll" data-delay="0">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Sites e plataformas robustas, otimizadas para performance e experiência do usuário.</p>
+                        <a href="services.html#websites" class="service-link">
+                            Saiba Mais <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Aplicativos Mobile</h3>
+                        <p>Apps intuitivos e de alta performance para iOS e Android, conectando sua marca ao seu público.</p>
+                        <a href="services.html#apps" class="service-link">
+                            Saiba Mais <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Marketing Digital</h3>
+                        <p>Estratégias de tráfego pago e SEO para maximizar sua visibilidade e retorno sobre investimento.</p>
+                        <a href="services.html#marketing" class="service-link">
+                            Saiba Mais <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="services.html" class="btn btn-primary btn-large animate-on-scroll">
+                        Ver Todas as Soluções
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2>
+                        Por Que Escolher a <span class="text-blue">WebVisionTech?</span>
+                    </h2>
+                    <p>Comprometimento, inovação e resultados que você pode ver.</p>
+                </div>
+                <div class="why-choose-us-grid">
+                    <div class="why-choose-card animate-on-scroll" data-delay="0">
+                        <div class="why-choose-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Inovação Constante</h3>
+                        <p>Estamos sempre à frente, utilizando as tecnologias mais recentes para garantir soluções de ponta.</p>
+                    </div>
+                    <div class="why-choose-card animate-on-scroll" data-delay="100">
+                        <div class="why-choose-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Equipe Especializada</h3>
+                        <p>Profissionais experientes e apaixonados por tecnologia, dedicados ao seu sucesso.</p>
+                    </div>
+                    <div class="why-choose-card animate-on-scroll" data-delay="200">
+                        <div class="why-choose-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Resultados Comprovados</h3>
+                        <p>Focamos em estratégias que geram retorno real e crescimento para o seu negócio.</p>
+                    </div>
+                    <div class="why-choose-card animate-on-scroll" data-delay="300">
+                        <div class="why-choose-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Suporte Dedicado</h3>
+                        <p>Parceria e acompanhamento contínuo para garantir que suas necessidades sejam sempre atendidas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-cta">
+            <div class="container">
+                <h2 class="animate-on-scroll">Pronto para Inovar?</h2>
+                <p class="animate-on-scroll">Vamos construir o futuro digital do seu negócio juntos.</p>
+                <a href="contact.html" class="btn btn-primary btn-large animate-on-scroll">
+                    Inicie Seu Projeto Agora
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <div class="footer-logo">
+                        <img src="logoWebVisionSemFundo.png" alt="WebVisionTech Logo" width="40" height="40">
+                        <h3>Web<span class="text-blue">Vision</span>Tech</h3>
+                    </div>
+                    <p>Sua parceira estratégica em tecnologia, transformando ideias em realidade digital.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="services.html#websites">Desenvolvimento Web</a></li>
+                        <li><a href="services.html#apps">Aplicativos Mobile</a></li>
+                        <li><a href="services.html#marketing">Marketing Digital</a></li>
+                        <li><a href="services.html#accounting">Contabilidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> contato@webvisiontech.com</p>
+                        <p><i class="fas fa-phone"></i> +55 (88) 99905-3942</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jijoca de Jericoacoara-CE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebVisionTech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

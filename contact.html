@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - WebVisionTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container container">
+            <a href="index.html" class="nav-logo"> <!-- Added <a> tag here -->
+                <img src="logoWebVisionSemFundo.png" alt="WebVisionTech Logo" class="logo" width="50" height="50">
+                <h1 class="logo-text">Web<span class="text-gradient">Vision</span></h1>
+            </a>
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="services.html" class="nav-link">Serviços</a>
+                <a href="about.html" class="nav-link">Sobre</a>
+                <a href="contact.html" class="nav-link active">Contato</a>
+                <button class="btn btn-primary">Orçamento</button>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="animate-fade-in">
+                    Fale Conosco <span class="text-blue">e Inicie Seu Projeto</span>
+                </h1>
+                <p class="animate-fade-in-delay">
+                    Estamos prontos para ouvir suas ideias e transformá-las em realidade digital.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-block animate-on-scroll">
+                        <h3>Informações de Contato</h3>
+                        <p>Entre em contato conosco através dos canais abaixo ou preencha o formulário ao lado.</p>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@webvisiontech.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+55 (88) 99905-3942</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jijoca de Jericoacoara-CE, Brasil</span>
+                        </div>
+                        <div class="social-links-contact">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-block animate-on-scroll">
+                        <h3>Envie Sua Mensagem</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required placeholder="Seu nome" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com" />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    required
+                                    placeholder="Descreva sua necessidade ou projeto"
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large">
+                                Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2>
+                        Onde <span class="text-blue">Estamos</span>
+                    </h2>
+                    <p>Visite-nos ou entre em contato. Estamos localizados em:</p>
+                </div>
+                <div class="map-container animate-on-scroll">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.9999999999995!2d-40.50000000000001!3d-2.7800000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7e921f0000000001%3A0x123456789abcdef0!2sJijoca%20de%20Jericoacoara%2C%20CE%2C%20Brazil!5e0!3m2!1sen!2sus!4v1678901234567!5m2!1sen!2sus"
+                        width="100%"
+                        height="450"
+                        style="border: 0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização da WebVisionTech em Jijoca de Jericoacoara-CE"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2>
+                        Perguntas <span class="text-blue">Frequentes</span>
+                    </h2>
+                    <p>Encontre respostas para as dúvidas mais comuns sobre nossos serviços.</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item animate-on-scroll" data-delay="0">
+                        <h3>Qual o prazo para desenvolvimento de um site?</h3>
+                        <p>
+                            O prazo varia conforme a complexidade do projeto. Sites institucionais simples podem levar de 4 a 6
+                            semanas, enquanto plataformas mais complexas podem demandar mais tempo. Realizamos um cronograma
+                            detalhado após a análise inicial.
+                        </p>
+                    </div>
+                    <div class="faq-item animate-on-scroll" data-delay="100">
+                        <h3>Vocês oferecem suporte após o lançamento?</h3>
+                        <p>
+                            Sim, oferecemos planos de suporte e manutenção contínuos para garantir que seu site ou aplicativo
+                            esteja sempre atualizado, seguro e funcionando perfeitamente.
+                        </p>
+                    </div>
+                    <div class="faq-item animate-on-scroll" data-delay="200">
+                        <h3>Como funciona o processo de tráfego pago?</h3>
+                        <p>
+                            Iniciamos com uma análise do seu público e objetivos, criamos e otimizamos campanhas no Google Ads e
+                            redes sociais, e monitoramos constantemente os resultados para maximizar seu ROI.
+                        </p>
+                    </div>
+                    <div class="faq-item animate-on-scroll" data-delay="300">
+                        <h3>Posso solicitar um orçamento sem compromisso?</h3>
+                        <p>
+                            Com certeza! Entre em contato conosco através do formulário ou telefone e agende uma consulta. Teremos
+                            prazer em entender sua necessidade e apresentar uma proposta personalizada.
+                        </p>
+                    </div>
+                    <div class="faq-item animate-on-scroll" data-delay="400">
+                        <h3>Quais serviços de contabilidade vocês oferecem?</h3>
+                        <p>
+                            Nossos serviços contábeis incluem gestão fiscal, planejamento tributário, consultoria financeira,
+                            elaboração de balanços e relatórios, e suporte completo para a conformidade legal da sua empresa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-cta">
+            <div class="container">
+                <h2 class="animate-on-scroll">Vamos Construir Algo Incrível!</h2>
+                <p class="animate-on-scroll">Sua visão digital está a um passo de se tornar realidade.</p>
+                <a href="services.html" class="btn btn-primary btn-large animate-on-scroll">
+                    Explore Nossos Serviços
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <div class="footer-logo">
+                        <img src="logoWebVisionSemFundo.png" alt="WebVisionTech Logo" width="40" height="40">
+                        <h3>Web<span class="text-blue">Vision</span>Tech</h3>
+                    </div>
+                    <p>Sua parceira estratégica em tecnologia, transformando ideias em realidade digital.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="services.html#websites">Desenvolvimento Web</a></li>
+                        <li><a href="services.html#apps">Aplicativos Mobile</a></li>
+                        <li><a href="services.html#marketing">Marketing Digital</a></li>
+                        <li><a href="services.html#accounting">Contabilidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> contato@webvisiontech.com</p>
+                        <p><i class="fas fa-phone"></i> +55 (88) 99905-3942</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jijoca de Jericoacoara-CE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebVisionTech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
